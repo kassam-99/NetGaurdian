@@ -23,6 +23,8 @@ The Discover module focuses on identifying and mapping network devices and their
 #### 2. **Port_Scanner**
 Built on the NetworkConfig class, the Port_Scanner module offers extensive network scanning capabilities. Key features include:
 
+![SScreenshot](README_Screenshots/Screenshot3.png)
+
 - **Targeted Scanning**: Scans specified IP addresses and ports to identify open ports and services.
 - **Protocol and Service Detection**: Identifies running services and their versions on open ports.
 - **SSL Certificate Retrieval**: Fetches SSL certificates to ensure secure communication.
@@ -32,6 +34,8 @@ Built on the NetworkConfig class, the Port_Scanner module offers extensive netwo
 #### 3. **Analyzer**
 The Analyzer module provides advanced network traffic analysis and anomaly detection. Its capabilities include:
 
+![SScreenshot](README_Screenshots/Screenshot4.png)
+
 - **Traffic Monitoring**: Captures and analyzes network traffic to identify devices based on traffic patterns.
 - **Rogue Device Detection**: Identifies unauthorized devices and access points within the network.
 - **DNS Analysis**: Performs DNS lookups and detects potential DNS spoofing or poisoning.
@@ -39,6 +43,8 @@ The Analyzer module provides advanced network traffic analysis and anomaly detec
 
 #### 4. **TaskAutomation**
 The TaskAutomation module allows users to automate and manage multiple tasks efficiently. It supports various execution modes:
+
+![SScreenshot](README_Screenshots/Screenshot5.png)
 
 - **Sequential and Parallel Execution**: Runs tasks one after another or simultaneously.
 - **Timed and Safe Modes**: Adds delays between tasks for better management.
