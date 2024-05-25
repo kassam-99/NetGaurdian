@@ -1,6 +1,6 @@
 # **NetGuardian**
 
-
+![MainScreenshot](README_Screenshots/Screenshot1.png)
 
 **NetGuardian** is a comprehensive network security and automation tool designed to facilitate efficient network discovery, scanning, monitoring, and reporting. The project integrates several key components to provide a holistic approach to network management and security analysis. Below are the main components and their functionalities:
 
