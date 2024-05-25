@@ -545,5 +545,5 @@ if __name__ == "__main__":
     #Discover(maxHostgroup=5,WaitingTimeDelay=1, MACsite=XMACsite).ICMP_DiscoverHost('192.168.0.101')
     #Discover(maxHostgroup=5,WaitingTimeDelay=1, MACsite=XMACsite).traceroute('google.com')
     #Discover().dns_lookup('google.com', verbose=True)
-    #Discover().os_fingerprinting(target_ip="172.16.188.15", verbose=True)
+
     
