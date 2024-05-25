@@ -1,4 +1,3 @@
-import threading
 import os
 from Analyzer import Analyzer
 from Discover import Discover
