@@ -50,6 +50,19 @@ Comprehensive network security and automation tool designed to facilitate effici
 \033[36mdiscovery\u001b[0m, \033[36mscanning\u001b[0m, \033[36mmonitoring\u001b[0m, and \033[36mreporting\u001b[0m. 
 
 The project integrates several key components to provide a holistic approach to network management and security analysis.
+
+
+
+Author: Kassam Dakhlalah               
+Github: kassam-99                      
+Version: 1.0, 26 May 2024               
+This project is open source            
+For any information on editing         
+the project, please refer to Instructions.txt 
+
+
+
+
 """
 
 print(logo_NetGuardian)

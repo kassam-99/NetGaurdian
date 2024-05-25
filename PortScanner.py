@@ -4,7 +4,6 @@ import ssl
 import subprocess
 import uuid
 import requests
-import requests
 import socket
 import scapy.all as scapy
 from multiprocessing import Pool, Manager, cpu_count
