@@ -23,7 +23,7 @@ The Discover module focuses on identifying and mapping network devices and their
 #### 2. **Port_Scanner**
 Built on the NetworkConfig class, the Port_Scanner module offers extensive network scanning capabilities. Key features include:
 
-![SScreenshot](README_Screenshots/Screenshot3.png)
+![SScreenshot](README_Screenshots/Screenshot4.png)
 
 - **Targeted Scanning**: Scans specified IP addresses and ports to identify open ports and services.
 - **Protocol and Service Detection**: Identifies running services and their versions on open ports.
@@ -34,7 +34,7 @@ Built on the NetworkConfig class, the Port_Scanner module offers extensive netwo
 #### 3. **Analyzer**
 The Analyzer module provides advanced network traffic analysis and anomaly detection. Its capabilities include:
 
-![SScreenshot](README_Screenshots/Screenshot4.png)
+![SScreenshot](README_Screenshots/Screenshot3.png)
 
 - **Traffic Monitoring**: Captures and analyzes network traffic to identify devices based on traffic patterns.
 - **Rogue Device Detection**: Identifies unauthorized devices and access points within the network.
