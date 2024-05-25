@@ -11,7 +11,7 @@
 #### 1. **Discover**
 The Discover module focuses on identifying and mapping network devices and their attributes. Its primary functions include:
 
-![DiscoverScreenshot](README_Screenshots/Screenshot2.png)
+![SScreenshot](README_Screenshots/Screenshot2.png)
 
 - **Network Data Retrieval**: Gathers detailed network data such as IP addresses, network interfaces, and subnet information.
 - **Host Discovery**: Utilizes ARP and ICMP protocols to identify active hosts on the network.
