@@ -74,6 +74,28 @@ The Report_Generator module produces detailed reports in multiple formats. It in
 **NetGuardian** offers a robust suite of tools for network administrators, security professionals, and IT auditors to maintain secure and well-managed network environments. Its combination of discovery, scanning, monitoring, and reporting capabilities ensures comprehensive coverage of all aspects of network security.
 
 
+### Getting Started
+
+Clone the repository.
+    
+    git clone https://github.com/kassam-99/NetGaurdian.git
+
+
+Install dependencies
+
+    pip install -r requirements.txt
+
+
+### Usage Examples
+
+Launch a server:
+
+    cd NetGaurdian
+
+    python NetGaurdian.py
+
+
+
 
 
 
