@@ -1,0 +1,37 @@
+Instructions for Using the CLI:
+    Discover Module
+        Retrieve Network Data: Displays detailed network information.
+        ARP Discover Hosts: Scans the network for active hosts using ARP.
+        ICMP Discover Hosts: Scans the network for active hosts using ICMP.
+        Network Mapper: Creates and displays a network graph.
+        Traceroute: Traces the route to a specified IP address.
+        DNS Lookup: Performs a DNS lookup for a specified domain.
+        Change MAC Address: Changes the MAC address to a random one or reverts to the original.
+
+    Port Scanner Module
+        Scan Target: Scans the specified target.
+        Extended Scan Target: Performs an extended scan on the specified target.
+        Save Scan Results: Saves the scan results to a file.
+
+    Task Automation Module
+        Add Task: Adds a new task to the task list.
+        Set Mode: Sets the mode for running tasks (sequential, parallel, timed, etc.).
+        Run Tasks: Runs the tasks based on the selected mode.
+
+    Report Generator Module
+        Generate CSV Report: Generates a CSV report from the provided data.
+        Generate TXT Report: Generates a TXT report from the provided data.
+        Generate JSON Report: Generates a JSON report from the provided data.
+
+
+Running the CLI
+
+    Save the script as Netguardian.py.
+    Ensure all required modules (Discover, Port_Scanner, TaskAutomation, Report_Generator) are in the same directory or properly installed.
+    Run the script using Python:
+
+    bash
+
+    python Netguardian.py
+
+Follow the prompts to navigate through the menu and use the various functionalities provided by NetGuardian.
