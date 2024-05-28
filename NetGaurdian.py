@@ -310,7 +310,7 @@ class Engine:
     
 
     def HelpOptions(self):
-        with open("NetGaurdian/NetGaurdian.txt", "r") as HelpRead:
+        with open("NetGaurdian.txt", "r") as HelpRead:
             print(HelpRead.read())
             
 
