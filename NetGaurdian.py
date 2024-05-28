@@ -78,7 +78,7 @@ class Engine:
             "Scanner" : self.ScannerOptions,
             "Analyzer" : lambda: self.AnalyzerOptions(FunctionKey="menu"),
             "Automation" :  self.TaskAutomationOptions,
-            "Help" : None,
+            "Help" :  self.HelpOptions,
             "Exit" : lambda: os.abort()
         }
 
