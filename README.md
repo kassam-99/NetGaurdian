@@ -91,7 +91,6 @@ Install dependencies
 
 ### Usage Examples
 
-Launch a server:
 
     cd NetGaurdian
 
