@@ -42,7 +42,7 @@ class Discover:
         self.NetworkInterface = NetworkInterface
         self.MACsite = MACsite or "https://macvendorlookup.com/api/v2/"
         self.private_IPv4 = None
-        self.mac_vendor_data = self.read_mac_vendor_csv("/home/zedx/Desktop/NetGaurdian/MAC.CSV") # Specify path of MAC.CSV
+        self.mac_vendor_data = self.read_mac_vendor_csv("/NetGaurdian/MAC.CSV") # Specify path of MAC.CSV
         self.network_graph = nx.Graph()
              
         self.DiscoveredData = []
@@ -539,7 +539,6 @@ if __name__ == "__main__":
     XMACsite = "https://macvendorlookup.com/api/v2/"
     #Discover().GetNetworkData(PrintDetails=True, save_to_file=True)
     #Discover().change_mac(RandomMAC=True, NetworkInterface='wlp0s20f3')
-    #Discover().change_mac(RandomMAC=False, NetworkInterface='wlp0s20f3', MAC='1c:c1:0c:e6:95:f6')
     Discover(WaitingTimeDelay=3, MACsite=XMACsite).ARP_DiscoverHosts(verbose = True)
     #Discover(maxHostgroup=5,WaitingTimeDelay=1, MACsite=XMACsite).ICMP_DiscoverHosts(verbose=True, save_to_file=True)
     #Discover(maxHostgroup=5,WaitingTimeDelay=1, MACsite=XMACsite).ICMP_DiscoverHost('192.168.0.101')
