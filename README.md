@@ -73,6 +73,9 @@ The Report_Generator module produces detailed reports in multiple formats. It in
 
 **NetGuardian** offers a robust suite of tools for network administrators, security professionals, and IT auditors to maintain secure and well-managed network environments. Its combination of discovery, scanning, monitoring, and reporting capabilities ensures comprehensive coverage of all aspects of network security.
 
+**Contributing:**
+Contributions, bug reports, and feature requests are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
+
 
 ### Getting Started
 
