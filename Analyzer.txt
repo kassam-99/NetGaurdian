@@ -1,0 +1,41 @@
+
+### Purpose:
+The code seems to be part of a network analysis and monitoring tool. It's designed to discover devices on a network, analyze network traffic, detect rogue access points and devices, check for DNS spoofing and poisoning, and monitor for suspicious network activity.
+
+### Classes:
+1. **Discover**: This class contains methods for discovering devices on the network, such as ARP scanning, retrieving network data, and getting vendor information based on MAC addresses.
+   
+2. **Analyzer**: This class includes methods for analyzing network traffic, detecting rogue access points and devices, checking for DNS spoofing and poisoning, and monitoring network activity for suspicious behavior.
+
+### Key Components:
+1. **ARP_DiscoverHosts**: This method performs ARP scanning to discover hosts on the network. It sends ARP requests and listens for responses to populate a list of discovered devices.
+
+2. **identify_devices_by_traffic**: This method identifies devices on the network by analyzing their traffic patterns. It looks at the communication patterns between devices to infer their roles.
+
+3. **monitor_network_traffic**: This method monitors network traffic on a specified interface for a given duration. It captures packets and provides statistics about the traffic, such as the number of packets and traffic protocols.
+
+4. **detect_rogue_access_points**: This method detects rogue access points by comparing discovered access points against a list of known access points. It looks for access points that are not in the list of known devices.
+
+5. **detect_rogue_devices**: This method detects rogue devices by comparing discovered devices with a list of known devices. It identifies devices that are not recognized as known devices.
+
+6. **detect_dns_spoofing**: This method detects DNS spoofing by comparing DNS query results with known legitimate IP addresses. It checks if the resolved IP addresses match the expected IP addresses for a given domain.
+
+7. **check_dns_poisoning**: This method checks for DNS poisoning by comparing the resolved IP address of a domain with a known IP address. It looks for discrepancies between the resolved IP and the expected IP.
+
+8. **detect_syn_flood**: This method detects SYN flood attacks by monitoring the network for a specified duration and counting SYN packets. It looks for an unusually high number of SYN packets, which may indicate a SYN flood attack.
+
+9. **monitor_network_for_suspicious_activity**: This method monitors the network for suspicious activity by analyzing packet patterns. It looks for sources that exhibit suspicious behavior, such as sending a high volume of traffic to a specific destination.
+
+### Additional Components:
+1. **Report_Generator**: This seems to be a separate class or module responsible for generating reports based on the collected data. It likely formats the data into CSV or text reports for further analysis or visualization.
+
+2. **MAC vendor data**: The code reads MAC vendor data from a CSV file or an API. This data is used to identify the vendors of devices based on their MAC addresses.
+
+3. **Network graph**: There is a network graph (presumably using NetworkX library) that might be used for visualizing network topology or relationships between devices.
+
+### Other Notes:
+- The code utilizes multithreading to perform tasks concurrently, such as sending ARP requests, querying DNS servers, and analyzing packet data.
+- Error handling is implemented to catch and handle exceptions that may occur during network scanning and analysis.
+- Various parameters are provided for configuring the behavior of the methods, such as duration of monitoring, verbosity of output, and thresholds for detection.
+
+Overall, the code appears to be a comprehensive tool for network analysis and monitoring, with capabilities for discovering devices, analyzing traffic patterns, and detecting potential security threats.
